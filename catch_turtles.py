@@ -19,7 +19,7 @@ def draw_boundaries(width, height):
 def create_timer():
     timer = Turtle()
     timer.penup()
-    timer.goto(-w + 30 , h + 10)  # Position in the top-right corner
+    timer.goto(-w + 30 , h + 10)  
     timer.hideturtle()
     return timer
 
